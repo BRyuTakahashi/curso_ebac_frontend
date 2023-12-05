@@ -1,0 +1,46 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 12px 0 0 12px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: crimson;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: auto;
+}
+
+form input {
+    width: 250px;
+    height: auto;
+    margin-top: 8px;
+    padding: 6px 55px 6px 10px;
+    font-size: 12px;
+}
+
+.error-message {
+    margin-top: 3px;
+    text-align: left;
+    font-size: 14px;
+    color: crimson;
+    display: none;
+}
+
+form button {
+    margin-top: 12px;
+    padding: 6px 55px;
+    font-weight: bold;
+    background-color: crimson;
+    color: #ffffff;
+}
